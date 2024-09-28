@@ -24,10 +24,30 @@
     text-align: right;
     margin-top: 0px;
     margin-bottom: 0px;
-    
+
 }
 body{
     background-image: url("../images/image\ \(1\).jpg");
     height: 100vh;
     background-size: cover;
+}
+main{
+    display: flex;
+    gap: 200px;
+}
+h2{
+    margin: 0;
+
+}
+.right{
+    margin-left: 400px;
+    margin-top: 35px;
+}
+.content{
+    padding: 0;
+    height: 100vh;
+}
+.aside{
+    padding-left: 20px;
+    height: 100vh;
 }

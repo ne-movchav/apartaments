@@ -1,5 +1,6 @@
 
 
+
   .content {
     position: fixed;
     left: 0;
@@ -107,37 +108,33 @@ a {
   
 }
 
+
 .box {
-  height: 155px;
-  width: 500px;
-  background-color:#66441F;
-  position: absolute;
-  bottom: 300px;
-  right: 350px;
+    margin: auto;
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    left: -72px;
+    right: 0;
+    width: 500px;
+    height: 155px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
 }
 
 .box2 {
-  height: 155px;
-  width: 500px;
   background-color:#EDC87C;
-  position: absolute;
-  bottom: 250px;
-  right: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 78px;
-  padding-left: 20px;
-
+  padding: 0 20px;
   color: #66441F;
+  box-shadow: 50px -30px 0 #66441F;
 }
+
 
 ul{
   list-style: url("../images/Rectangle\ 25.png")
 }
+
 

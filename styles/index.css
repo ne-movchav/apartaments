@@ -1,140 +1,23 @@
-  .content {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    margin-right: 20px;
-  }
-
-body {
-  position: relative;
-  height: 832px;
-
-  background: #EDC87C;
-}
-
-
-/* APARTAMENTS FOR RENT */
-.button-cta {
-  position: absolute;
-  width: 487px;
-  height: 134px;
-  left: 322px;
-  top: 377px;
-
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 78px;
-
-  color: #66441F;
-}
-
-
-/* Пошук... */
-.search {
-  position: absolute;
-  width: 103px;
-  height: 20px;
-  left: 294px;
-  top: 13px;
-
-  font-family: 'Inria Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #FFEED3;
-}
-
-/* Київ */
-.h2 {
-  width: 71px;
-  height: 43px;
-
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 42px;
-
-  color: #FCD78A;
-}
-
-
-/* Квартири */
-
-.title {
-  position: absolute;
-  width: 148px;
-  height: 28px;
-  left: 51px;
-  top: 110px;
-
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 31px;
-
-  color: #FCD78A;
-}
-
-body {
-  margin: 0;
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-html {
-  overflow: auto;
-}
-
-.aside {
-  background-color: #66441F;
-}
-
-a {
-  color: #FCD78A;
-  font-size: 23px;
-  text-decoration: none;
-  
-}
-
 .box {
-  height: 155px;
-  width: 500px;
-  background-color:#66441F;
-  position: absolute;
-  bottom: 300px;
-  right: 350px;
+    margin: auto;
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    left: -72px;
+    right: 0;
+    width: 500px;
+    height: 155px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
 }
 
 .box2 {
-  height: 155px;
-  width: 500px;
   background-color:#EDC87C;
-  position: absolute;
-  bottom: 250px;
-  right: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 78px;
-  padding-left: 20px;
-
+  padding: 0 20px;
   color: #66441F;
+  box-shadow: 50px -30px 0 #66441F;
 }
 
-ul{
-  list-style: url("../images/Rectangle\ 25.png")
-}

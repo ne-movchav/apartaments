@@ -1,21 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'EB Garamond';
+  position: r;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FCD78A;
+  position: fixed;
+  top: 0;
+  /* padding: 7px; */
+  align-content: space-between;
+}
+
+header a {
+  color:#FFEED3
+}
+
+.logo img {
+  width: 80px;
+}
+
+header input::placeholder {
+  color:#FFE7C2;
+  font-family: 'EB Garamond';
+  font-size: 20px;
+}
+
+.search {
+  position: absolute;
+  width: 470px;
+  height: 32px;
+  left: 286px;
+  top: 5px;
+  background: #66441F;
+  border-radius: 5px;
+  color:#FFE7C2;
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.register {
+  box-sizing: border-box;
+  position: absolute;
+  width: 180px;
+  height: 35px;
+  left: 1000px;
+  top: -5px;
+  background: #FFE7C2;
+  border: 0.5px solid #66441F;
+  box-shadow: inset 0px 2px 5px rgba(102, 68, 31, 0.5);
+  border-radius: 10px;
+
+  font-size: 24px;
+  color: #66441F;
+  text-align: center;
+
+  text-decoration: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+.register:hover {
+  text-decoration: underline;
+  transition: 0.2s;
+  color:#FCD78A;
+
+}
+
+.favorite img {
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  margin: 0px;
+}
+
 .background-image {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    display: block;
-    background-image: url("../images/image.jpg");
-    width: 1200px;
-    height: 800px;
-  }
-  
-  .content {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    background-color: rgba(102, 68, 31, 0.7);
-    width: 300px;
-    margin-right: 20px;
-    padding-left: 20px;
-  }
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url("../images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100vw;
+  height: 100vh;
+}
+
+li {
+  color:#FCD78A;
+  text-decoration: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+li:hover {
+  text-decoration: underline;
+  transition: 0.2s;
+  color: #FFE7C2;
+}
+
+aside {
+  background-color: rgba(102, 68, 31, 0.7);
+  width: 300px;
+  padding-left: 20px;
+}
+
+
+a {
+  color: #FCD78A;
+  font-size: 23px;
+  text-decoration: none;
+  margin: 9px;
+  outline: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: 0.2s;
+  color: #FFE7C2;
+}
+
+
+/* Київ */
+.h2 {
+  font-size: 32px;
+  line-height: 42px;
+  color: #FCD78A;
+  margin: 15px 0;
+}
+
+/* Квартири */
+.menu-item {
+  margin: 0 20px;
+}
+
+.social {
+  margin: 0 auto;
+  display: flex;
+}
+
+.content { margin: auto;}
